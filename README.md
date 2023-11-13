@@ -2,7 +2,7 @@
 
 This repository is a curated collection of my skills, projects, experiences, and a glimpse into who I am.
 
-To view it: **[click here]([https://vmohd.github.io/)**
+To view it: **[click here](https://vmohd.github.io/)**
 
 ## Sections
 
