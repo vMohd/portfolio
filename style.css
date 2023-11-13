@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
+
+
+:root {
+    --primary-color: #7D5A50;
+    --secondary-color: #FDF6F0;
+    --third-color: #4073b3;
+    --font-family: "Jost", sans-serif
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 1.58;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    text-align: center;
+}
+
+small {
+    opacity: 0.8;
+}
+
+.card {
+    margin: 3rem;
+    padding: 4rem;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.social-buttons {
+    margin: 20px 0;
+}
+
+.social-round-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 50px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+
+.social-buttons a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.social-round-icon i {
+    color: var(--primary-color);
+}
+
+.social-buttons a:hover .social-round-icon {
+    background-color: var(--third-color);
+    border-color: var(--third-color);
+  }
+
+  .social-buttons a:hover {
+    color: var(--third-color);
+  }
+
+  .social-buttons a:hover .social-round-icon i {
+    color: var(--secondary-color);
+  }
+
+.links {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.links:hover {
+    text-decoration: none;
+    color: var(--third-color);
+}
+
+.skill-category {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .skills-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .skills-list li {
+    margin-bottom: 5px;
+  }
