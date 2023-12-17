@@ -127,3 +127,8 @@ small {
 .skills-list li {
     margin-bottom: 5px;
 }
+
+.img-fluid {
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
